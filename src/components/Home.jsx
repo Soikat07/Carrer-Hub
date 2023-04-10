@@ -41,6 +41,16 @@ const Home = () => {
           ))}
         </div>
       </section>
+      {/* Featured Jobs */}
+      <section className="my-12">
+        <div className="text-center">
+          <h3 className="font-bold text-3xl">Featured Jobs</h3>
+          <p className="text-gray-400 my-4">
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
+          </p>
+        </div>
+      </section>
     </main>
   );
 };
