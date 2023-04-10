@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import Header from './components/Header';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLoaderData } from 'react-router-dom';
+
+export const JobsContext = createContext([]);
 
 const App = () => {
+  const jobs = useLoaderData()
+  
   return (
-    <div>
+    <JobsContext.Provider value={jobs}>
       <Header />
       <Outlet />
-    </div>
+    </JobsContext.Provider>
   );
 };
 

@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import person from '../assets/person.png';
 import { useLoaderData } from 'react-router-dom';
 import Category from './Category';
+import Job from './Job';
+import { JobsContext } from '../App';
 
 const Home = () => {
   // job category data
   const data = useLoaderData();
+  // take value with useContext
+  const jobs = useContext(JobsContext || []);
+  
   return (
     <main className="my-container">
       {/* banner section */}
@@ -42,7 +47,7 @@ const Home = () => {
         </div>
       </section>
       {/* Featured Jobs */}
-      <section className="my-12">
+      <section className="mt-20">
         <div className="text-center">
           <h3 className="font-bold text-3xl">Featured Jobs</h3>
           <p className="text-gray-400 my-4">
@@ -50,7 +55,15 @@ const Home = () => {
             need. Its your future
           </p>
         </div>
+        <div className='my-4 grid md:grid-cols-2 gap-5 mx-20'>
+          {
+            jobs.map(job => <Job job={job} key={job.id}/>)
+          }
+        </div>
       </section>
+      <div className='text-center'>
+      <button className='btn-primary'>See All Jobs</button>
+      </div>
     </main>
   );
 };

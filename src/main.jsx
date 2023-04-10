@@ -8,11 +8,13 @@ import AppliedJobs from './components/AppliedJobs'
 import Blog from './components/Blog'
 import ErrorPage from './components/ErrorPage'
 import Home from './components/Home'
+import { getJobsData } from './Loader/customLoader'
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
+    loader: getJobsData,
     children: [
       {
         path: '/',
