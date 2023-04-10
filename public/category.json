@@ -1,0 +1,26 @@
+const jobCategories = [
+  {
+    id: 1,
+    title: "Account & Finance",
+    img: "https://ibb.co/v1sSyzb",
+    availableJobs: "100+ Jobs available"
+  },
+  {
+    id: 2,
+    title: "Creative Design",
+    img: "https://ibb.co/16Z355t",
+    availableJobs: "100 Jobs available"
+  },
+  {
+    id: 3,
+    title: "Marketing & Sales",
+    img: "https://ibb.co/mqHrGk2",
+    availableJobs: "250+ Jobs available"
+  },
+  {
+    id: 4,
+    title: "Engineering Job",
+    img: "https://ibb.co/mSTrttb",
+    availableJobs: "54 Jobs available"
+  }
+];

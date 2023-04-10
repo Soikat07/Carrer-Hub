@@ -10,8 +10,11 @@
 }
 
 .btn-primary{
-@apply px-3 py-2 rounded-md text-white font-serif bg-violet-500
+@apply px-4 py-2 rounded-md text-white font-serif bg-violet-500
 }
 .btn-outline{
 
+}
+.my-container{
+    @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20
 }
