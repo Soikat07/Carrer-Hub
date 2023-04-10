@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import person from '../assets/person.png';
 import { useLoaderData } from 'react-router-dom';
 import Category from './Category';
@@ -10,6 +10,11 @@ const Home = () => {
   const data = useLoaderData();
   // take value with useContext
   const jobs = useContext(JobsContext || []);
+  // show all button function
+  const [seeAll, setSeeAll] = useState(false);
+  const handleSeeAllJobs = () => {
+    setSeeAll(true);
+  }
   
   return (
     <main className="my-container">
@@ -55,17 +60,19 @@ const Home = () => {
             need. Its your future
           </p>
         </div>
-        <div className='my-4 grid md:grid-cols-2 gap-5 mx-20'>
-          {
-            jobs.map(job => <Job job={job} key={job.id}/>)
-          }
+        <div className="my-4 grid md:grid-cols-2 gap-5 mx-20">
+          {jobs.slice(0,seeAll ? 6 : 4).map(job => (
+            <Job job={job} key={job.id} />
+          ))}
         </div>
       </section>
-      <div className='text-center'>
-      <button className='btn-primary'>See All Jobs</button>
-      </div>
+      {/* conditionally rendered see all button */}
+      {seeAll || (
+        <div onClick={handleSeeAllJobs} className="text-center">
+          <button className="btn-primary">See All Jobs</button>
+        </div>
+      )}
     </main>
   );
 };
-
 export default Home;
