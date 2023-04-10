@@ -10,8 +10,8 @@
 }
 
 .btn-primary{
-
+@apply px-3 py-2 rounded-md text-white font-serif bg-violet-500
 }
 .btn-outline{
-  
+
 }
