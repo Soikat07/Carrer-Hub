@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { JobsContext } from '../App';
 import { MapPinIcon, CurrencyDollarIcon, PhoneIcon,EnvelopeIcon,BriefcaseIcon } from '@heroicons/react/24/solid';
+import { addToDb } from '../utilities/fakeDb';
 
 const JobDetails = () => {
   // get clicked job id
@@ -21,6 +22,12 @@ const JobDetails = () => {
     email,
     address,
   } = matchedJob;
+
+  // add to local storage with id
+  const addToLocalStorage = id => {
+    addToDb(id);
+  }
+
   return (
     <main className="grid md:grid-cols-2 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-40 md:py-24 space-x-40">
       <div>
@@ -80,10 +87,10 @@ const JobDetails = () => {
             </p>
           </div>
         </div>
-        <div className="text-center mt-4 bg-violet-500 py-2 text-white rounded-md">
-          <Link to="">
-            <button>Apply Now</button>
-          </Link>
+        <div className="text-center mt-4">
+            <button onClick={()=>addToLocalStorage(id)} className=" bg-violet-500 py-2 text-white rounded-md w-full">
+              Apply Now
+            </button>
         </div>
       </div>
     </main>
