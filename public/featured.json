@@ -10,11 +10,11 @@
     "educational_requirements": "Bachelor's Degree in Computer Science or related field",
     "experience": "5+ years of experience in product management or related field",
     "salary": "$150,000 - $200,000",
-    "job_description": "We are seeking a Product Manager to lead our team of developers...",
-    "job_responsibility": "Responsibilities include setting product vision and strategy...",
+    "job_description": "We are seeking a Product Manager to lead our team of developers.The role includes conducting market research, defining and prioritizing product features, and managing the product development process from conception to launch. Product Managers are crucial in driving revenue, customer acquisition, and retention for a company.",
+    "job_responsibility": "Responsibilities include setting product vision and strategy.Conducting market research to identify customer needs, trends, and opportunities.Developing product strategies and roadmaps to guide the development and marketing of products or services.",
     "phone": "(555) 555-5555",
     "email": "jobs@google.com",
-    "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043"
+    "address": "1600 Amphitheatre Parkway"
   },
   {
     "id": "23sodffwer",
@@ -27,11 +27,11 @@
     "educational_requirements": "Bachelor's Degree in Electrical Engineering or related field",
     "experience": "3+ years of experience in electrical engineering or related field",
     "salary": "$100,000 - $120,000",
-    "job_description": "We are looking for an Electrical Engineer to join our team...",
-    "job_responsibility": "Responsibilities include designing and implementing electrical systems...",
+    "job_description": "We are looking for an Electrical Engineer to join our team.An Electrical Engineer is a professional who designs, develops, and maintains electrical systems and equipment.",
+    "job_responsibility": "Responsibilities include designing and implementing electrical systems.Monitoring and maintaining existing electrical systems to ensure their continued functionality and efficiency.",
     "phone": "(555) 555-5555",
     "email": "jobs@tesla.com",
-    "address": "45500 Fremont Blvd, Fremont, CA 94538"
+    "address": "45500 Fremont Blvd"
   },
   {
     "id": "1a2a3a12df",
@@ -44,11 +44,11 @@
     "educational_requirements": "Bachelor's Degree in Data Science or related field",
     "experience": "2+ years of experience in data analysis or related field",
     "salary": "$80,000 - $100,000",
-    "job_description": "We are looking for a talented Data Analyst to join our analytics team...",
-    "job_responsibility": "Responsibilities include analyzing and interpreting data...",
+    "job_description": "We are looking for a talented Data Analyst to join our analytics team. Data analysts are responsible for data cleaning, validation, and quality assurance to ensure accurate and reliable results. They also collaborate with different departments within an organization to provide recommendations and insights based on the data analysis.",
+    "job_responsibility": "Responsibilities include analyzing and interpreting data.Conducting market research to identify customer needs, trends, and opportunities.Developing product strategies and roadmaps to guide the development and marketing of products or services.",
     "phone": "(555) 555-5555",
     "email": "jobs@netflix.com",
-    "address": "Virtual"
+    "address": "Seattle, WA 98109"
   },
   {
     "id": "34rt45wds",
@@ -61,11 +61,11 @@
     "educational_requirements": "Bachelor's Degree in Design or related field",
     "experience": "3+ years of experience in product design or related field",
     "salary": "$120,000 - $150,000",
-    "job_description": "We are seeking a Product Designer to join our team and help shape the future of travel...",
-    "job_responsibility": "Responsibilities include designing and prototyping new features...",
+    "job_description": "We are seeking a Product Designer to join our team and help shape the future of travel.The role includes conducting market research, defining and prioritizing product features, and managing the product development process from conception to launch. Product Managers are crucial in driving revenue, customer acquisition, and retention for a company.",
+    "job_responsibility": "Responsibilities include designing and prototyping new features.Conducting market research to identify customer needs, trends, and opportunities.",
     "phone": "(555) 555-5555",
     "email": "jobs@airbnb.com",
-    "address": "888 Brannan St, San Francisco, CA 94103"
+    "address": "St, San Francisco"
   },
   {
     "id": "owrifd23",
@@ -78,11 +78,11 @@
     "educational_requirements": "Master's Degree in Data Science or related field",
     "experience": "5+ years of experience in data analysis or related field",
     "salary": "$150,000 - $200,000",
-    "job_description": "We are looking for a Senior Data Scientist to lead our team of analysts and help drive business decisions...",
-    "job_responsibility": "Responsibilities include developing and implementing statistical models...",
+    "job_description": "We are looking for a Senior Data Scientist to lead our team of analysts and help drive business decisions.Data analysts are responsible for data cleaning, validation, and quality assurance to ensure accurate and reliable results. They also collaborate with different departments within an organization to provide recommendations and insights based on the data analysis.",
+    "job_responsibility": "Responsibilities include developing and implementing statistical models.Conducting market research to identify customer needs, trends, and opportunities.Developing product strategies and roadmaps to guide the development and marketing of products or services.",
     "phone": "(555) 555-5555",
     "email": "jobs@amazon.com",
-    "address": "410 Terry Ave N, Seattle, WA 98109"
+    "address": "410 Terry Ave N"
   },
   {
     "id": "sdlhfasle2323",
@@ -95,10 +95,10 @@
     "educational_requirements": "Bachelor's Degree in Computer Science or related field",
     "experience": "7+ years of experience in cloud computing or related field",
     "salary": "$180,000 - $220,000",
-    "job_description": "We are looking for an experienced Cloud Solutions Architect to join our team...",
-    "job_responsibility": "Responsibilities include designing and implementing cloud-based solutions...",
+    "job_description": "We are looking for an experienced Cloud Solutions Architect to join our team.Conducting market research to identify customer needs, trends, and opportunities.Developing product strategies and roadmaps to guide the development and marketing of products or services.",
+    "job_responsibility": "Responsibilities include designing and implementing cloud-based solutions.Monitoring and maintaining existing electrical systems to ensure their continued functionality and efficiency",
     "phone": "(555) 555-5555",
     "email": "jobs@microsoft.com",
-    "address": "123 Main St, New York, NY 10001"
+    "address": "123 Main St, New York"
   }
 ]

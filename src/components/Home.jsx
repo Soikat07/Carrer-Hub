@@ -8,7 +8,7 @@ import { JobsContext } from '../App';
 const Home = () => {
   // job category data
   const data = useLoaderData();
-  // take value with useContext
+  // get jobs with useContext
   const jobs = useContext(JobsContext || []);
   // show all button function
   const [seeAll, setSeeAll] = useState(false);
