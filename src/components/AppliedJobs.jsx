@@ -19,7 +19,7 @@ const AppliedJobs = () => {
         <button className="btn-outline">Remote</button>
         <button className="btn-outline">Onsite</button>
       </div>
-      <div className="w-1/2 mx-auto">
+      <div className="w-3/5 mx-auto">
         {newJobCart.map(singleJob => (
           <JobsCart singleJob={singleJob} key={singleJob.id} />
         ))}
