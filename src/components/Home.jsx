@@ -19,11 +19,11 @@ const Home = () => {
   return (
     <main className="my-container">
       {/* banner section */}
-      <section className="flex justify-center space-x-10 relative">
+      <section className="flex justify-center space-x-10">
         <div className="w-96">
           <h1 className="text-5xl font-semibold">
-            One Step Closer To Your{' '}
-            <span className="text-violet-600">Dream Job</span>
+            One Step Closer To Your
+            <span className="text-violet-600"> Dream Job</span>
           </h1>
           <p className="text-gray-400 my-4">
             Explore thousands of job opportunities with all the information you
@@ -32,7 +32,7 @@ const Home = () => {
           </p>
           <button className="btn-primary">Get Started</button>
         </div>
-        <div className="relative bottom-10">
+        <div>
           <img className="w-96" src={person} alt="" />
         </div>
       </section>
@@ -45,7 +45,7 @@ const Home = () => {
             need. Its your future
           </p>
         </div>
-        <div className="flex justify-center space-x-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 sm:ms-5">
           {data.map(category => (
             <Category category={category} key={category.id} />
           ))}
