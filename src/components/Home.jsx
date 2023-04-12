@@ -19,9 +19,9 @@ const Home = () => {
   return (
     <main className="my-container">
       {/* banner section */}
-      <section className="flex justify-center space-x-10">
-        <div className="w-96">
-          <h1 className="text-5xl font-semibold">
+      <section className="lg:flex justify-center space-x-10">
+        <div className="px-5 lg:w-96">
+          <h1 className="text-3xl lg:text-5xl font-semibold">
             One Step Closer To Your
             <span className="text-violet-600"> Dream Job</span>
           </h1>
@@ -40,12 +40,12 @@ const Home = () => {
       <section className="my-10">
         <div className="text-center">
           <h3 className="font-bold text-3xl">Job Category List</h3>
-          <p className="text-gray-400 my-4">
+          <p className="text-gray-400 my-4 px-5">
             Explore thousands of job opportunities with all the information you
             need. Its your future
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 sm:ms-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 px-10 lg:px-36">
           {data.map(category => (
             <Category category={category} key={category.id} />
           ))}
@@ -55,12 +55,12 @@ const Home = () => {
       <section className="mt-20">
         <div className="text-center">
           <h3 className="font-bold text-3xl">Featured Jobs</h3>
-          <p className="text-gray-400 my-4">
+          <p className="text-gray-400 my-4 px-5">
             Explore thousands of job opportunities with all the information you
             need. Its your future
           </p>
         </div>
-        <div className="my-4 grid md:grid-cols-2 gap-5 mx-20">
+        <div className="my-4 grid md:grid-cols-2 gap-5 lg:mx-20 mx-5">
           {jobs.slice(0,seeAll ? 6 : 4).map(job => (
             <Job job={job} key={job.id} />
           ))}
