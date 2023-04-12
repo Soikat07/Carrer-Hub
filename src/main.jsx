@@ -10,6 +10,7 @@ import ErrorPage from './components/ErrorPage'
 import Home from './components/Home'
 import { getJobsData } from './Loader/customLoader'
 import JobDetails from './components/JobDetails'
+import Job from './components/Job'
 const router = createBrowserRouter([
   {
     path: '/',
